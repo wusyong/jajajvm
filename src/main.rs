@@ -94,7 +94,7 @@ fn get_constant_pool(class_file: &mut BufReader<File>) -> Vec<ConstantPool> {
             7 => cp.push(ConstantPool::Class { starting_index: read_2(class_file) }),
             9 | 10 => cp.push(ConstantPool::MethodOrFieldRef { class_index: read_2(class_file), name_and_type_index: read_2(class_file)}),
             12 => cp.push(ConstantPool::NameAndType { name_index: read_2(class_file), descriptor_index: read_2(class_file)}),
-            x => panic!("{}",x),
+            x => panic!("Unsupport tag: {}",x),
         }
     }
 

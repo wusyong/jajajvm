@@ -1,7 +1,8 @@
 [package]
 name = "jajajvm"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ngo Iok Ui <wusyong9104@gmail.com>"]
 edition = "2018"
 description = "A safe JVM without any dependency and is so simple, it could put a smile on your face."
 license = "MIT"
+readme = "README.md"
