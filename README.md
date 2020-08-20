@@ -13,4 +13,4 @@ cargo run samples/Arithmetic.class
 
 ## Reference
 
-Jajajvm is based on refernce of [pitfulvm](https://github.com/jserv/pitifulvm)
+Jajajvm is based on refernce of [pitfulvm](https://github.com/jserv/PitifulVM)
